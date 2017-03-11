@@ -1,0 +1,2 @@
+Cython==0.25.2
+virtualenv==13.1.2
