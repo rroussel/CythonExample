@@ -28,7 +28,7 @@
 
 
 # The Cython code that generates a native python class that wraps the C++
-# AGraphicsHelper class.
+# AFancyWidget class.
 #
 
 from widget cimport AFancyWidget

@@ -31,12 +31,12 @@ AFancyWidget::AFancyWidget(const std::string& name) :
 }
 
 
-bool AFancyWidget::IsCorrect(const std::string& name)
+bool AFancyWidget::IsCorrect(const std::string& name) const
 {
    return name == m_name;
 }
 
-const std::string AFancyWidget::GetName()
+const std::string AFancyWidget::GetName() const
 {
    return m_name;
 }

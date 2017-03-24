@@ -29,9 +29,9 @@ class AFancyWidget
    public:
       AFancyWidget(const std::string& name);
       
-      bool IsCorrect(const std::string& name);
+      bool IsCorrect(const std::string& name) const;
       
-      const std::string GetName();
+      const std::string GetName() const;
       
    private:
       std::string m_name;
