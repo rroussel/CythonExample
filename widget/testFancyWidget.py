@@ -22,7 +22,7 @@
 import widget
 
 w = widget.APyFancyWidget(b"Pat")
-isFredValid = w.IsCorrect("Fred")
+isFredValid = w.IsCorrect(b"Fred")
 print("isFredValid:", isFredValid)
-isPatValid = w.IsCorrect("Pat")
+isPatValid = w.IsCorrect(b"Pat")
 print("isPatValid:", isPatValid)
